@@ -124,9 +124,12 @@ export default function Products() {
                         {product.priceRange}
                       </span>
                     </div>
-                    <button className="px-4 py-2 border border-[#333] text-[10px] tracking-wider uppercase text-[#888] hover:border-[#c8a04a] hover:text-[#c8a04a] transition-all duration-300">
+                    <a
+                      href="#contact"
+                      className="px-4 py-2 border border-[#333] text-[10px] tracking-wider uppercase text-[#888] hover:border-[#c8a04a] hover:text-[#c8a04a] transition-all duration-300 inline-block"
+                    >
                       Inquire
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
