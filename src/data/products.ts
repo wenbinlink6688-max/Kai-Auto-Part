@@ -8,6 +8,7 @@ export interface Product {
   priceMax: number;
   tags: string[];
   popularity: "hot" | "trending" | "new" | "classic";
+  image: string;
 }
 
 export interface Category {
@@ -117,6 +118,7 @@ export const featuredProducts: Product[] = [
     priceMax: 520,
     tags: ["Carbon Fiber", "Universal"],
     popularity: "hot",
+    image: "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600&h=400&fit=crop",
   },
   {
     id: "sp-002",
@@ -129,6 +131,7 @@ export const featuredProducts: Product[] = [
     priceMax: 120,
     tags: ["ABS", "Sedan"],
     popularity: "trending",
+    image: "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?w=600&h=400&fit=crop",
   },
   {
     id: "bk-001",
@@ -141,6 +144,7 @@ export const featuredProducts: Product[] = [
     priceMax: 2500,
     tags: ["Polyurethane", "Full Kit"],
     popularity: "hot",
+    image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=600&h=400&fit=crop",
   },
   {
     id: "gr-001",
@@ -153,6 +157,7 @@ export const featuredProducts: Product[] = [
     priceMax: 280,
     tags: ["Gloss Black", "OEM Fit"],
     popularity: "trending",
+    image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&h=400&fit=crop",
   },
   {
     id: "gr-002",
@@ -165,6 +170,7 @@ export const featuredProducts: Product[] = [
     priceMax: 450,
     tags: ["Aluminum", "Chrome"],
     popularity: "classic",
+    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&h=400&fit=crop",
   },
   {
     id: "bp-001",
@@ -177,6 +183,7 @@ export const featuredProducts: Product[] = [
     priceMax: 850,
     tags: ["Paintable", "Sport"],
     popularity: "hot",
+    image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=600&h=400&fit=crop",
   },
   {
     id: "bp-002",
@@ -189,6 +196,7 @@ export const featuredProducts: Product[] = [
     priceMax: 380,
     tags: ["Carbon Fiber", "Universal"],
     popularity: "trending",
+    image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&h=400&fit=crop",
   },
   {
     id: "ff-001",
@@ -201,6 +209,7 @@ export const featuredProducts: Product[] = [
     priceMax: 400,
     tags: ["Textured", "Bolt-On"],
     popularity: "classic",
+    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&h=400&fit=crop",
   },
   {
     id: "ss-001",
@@ -213,6 +222,7 @@ export const featuredProducts: Product[] = [
     priceMax: 200,
     tags: ["Universal", "Gloss Black"],
     popularity: "new",
+    image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&h=400&fit=crop",
   },
   {
     id: "led-001",
@@ -225,6 +235,7 @@ export const featuredProducts: Product[] = [
     priceMax: 450,
     tags: ["Sequential", "Smoked"],
     popularity: "hot",
+    image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&h=400&fit=crop",
   },
   {
     id: "led-002",
@@ -237,6 +248,7 @@ export const featuredProducts: Product[] = [
     priceMax: 80,
     tags: ["Switchback", "IP67"],
     popularity: "trending",
+    image: "https://images.unsplash.com/photo-1504215680853-026ed2a45def?w=600&h=400&fit=crop",
   },
   {
     id: "ct-001",
@@ -249,6 +261,7 @@ export const featuredProducts: Product[] = [
     priceMax: 120,
     tags: ["3M Vinyl", "Pre-Cut"],
     popularity: "new",
+    image: "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop",
   },
   {
     id: "wv-001",
@@ -261,6 +274,7 @@ export const featuredProducts: Product[] = [
     priceMax: 90,
     tags: ["In-Channel", "4-Piece"],
     popularity: "classic",
+    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
   },
   {
     id: "mf-001",
@@ -273,6 +287,7 @@ export const featuredProducts: Product[] = [
     priceMax: 100,
     tags: ["Urethane", "No-Drill"],
     popularity: "classic",
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=600&h=400&fit=crop",
   },
   {
     id: "cc-001",
@@ -285,6 +300,7 @@ export const featuredProducts: Product[] = [
     priceMax: 180,
     tags: ["Waterproof", "UV Shield"],
     popularity: "classic",
+    image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&h=400&fit=crop",
   },
   {
     id: "rr-001",
@@ -297,6 +313,7 @@ export const featuredProducts: Product[] = [
     priceMax: 200,
     tags: ["Aluminum", "Anti-Theft"],
     popularity: "trending",
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&h=400&fit=crop",
   },
 ];
 

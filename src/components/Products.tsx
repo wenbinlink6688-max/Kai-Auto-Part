@@ -69,24 +69,14 @@ export default function Products() {
                 key={product.id}
                 className="product-card group bg-[#141414] border border-[#222] overflow-hidden"
               >
-                {/* Image placeholder with gradient */}
-                <div className="relative h-48 bg-gradient-to-br from-[#1a1a1a] to-[#0e0e0e] overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-6xl opacity-20 group-hover:opacity-30 group-hover:scale-110 transition-all duration-500">
-                      {product.category === "Spoilers & Wings" && "🏎️"}
-                      {product.category === "Body Kits" && "🔧"}
-                      {product.category === "Custom Grilles" && "◼️"}
-                      {product.category === "Bumpers & Lips" && "🛡️"}
-                      {product.category === "Fender Flares" && "💪"}
-                      {product.category === "Side Skirts" && "➡️"}
-                      {product.category === "LED Lighting" && "💡"}
-                      {product.category === "Chrome & Trim" && "✨"}
-                      {product.category === "Window Visors" && "🌧️"}
-                      {product.category === "Mud Flaps & Guards" && "🛞"}
-                      {product.category === "Car Covers" && "🧥"}
-                      {product.category === "Roof Racks & Cargo" && "📦"}
-                    </div>
-                  </div>
+                {/* Product image */}
+                <div className="relative h-48 bg-[#1a1a1a] overflow-hidden">
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    loading="lazy"
+                  />
                   <div className="product-image-overlay absolute inset-0 bg-gradient-to-t from-[#141414] to-transparent opacity-60 transition-opacity duration-500" />
 
                   {/* Popularity badge */}
