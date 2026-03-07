@@ -118,7 +118,7 @@ export const featuredProducts: Product[] = [
     priceMax: 520,
     tags: ["Carbon Fiber", "Universal"],
     popularity: "hot",
-    image: "https://images.unsplash.com/photo-1600712242805-5f78671b24da?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61qJwQ2gNEL._AC_SL1200_.jpg",
   },
   {
     id: "sp-002",
@@ -131,7 +131,7 @@ export const featuredProducts: Product[] = [
     priceMax: 120,
     tags: ["ABS", "Sedan"],
     popularity: "trending",
-    image: "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61DPuSMJURL._AC_SL1500_.jpg",
   },
   {
     id: "bk-001",
@@ -144,7 +144,7 @@ export const featuredProducts: Product[] = [
     priceMax: 2500,
     tags: ["Polyurethane", "Full Kit"],
     popularity: "hot",
-    image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71yA7-LPKXL._AC_SL1500_.jpg",
   },
   {
     id: "gr-001",
@@ -157,7 +157,7 @@ export const featuredProducts: Product[] = [
     priceMax: 280,
     tags: ["Gloss Black", "OEM Fit"],
     popularity: "trending",
-    image: "https://images.pexels.com/photos/10854767/pexels-photo-10854767.jpeg?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71mYhFJRJwL._AC_SL1500_.jpg",
   },
   {
     id: "gr-002",
@@ -170,7 +170,7 @@ export const featuredProducts: Product[] = [
     priceMax: 450,
     tags: ["Aluminum", "Chrome"],
     popularity: "classic",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/81NlxFH-9hL._AC_SL1500_.jpg",
   },
   {
     id: "bp-001",
@@ -183,7 +183,7 @@ export const featuredProducts: Product[] = [
     priceMax: 850,
     tags: ["Paintable", "Sport"],
     popularity: "hot",
-    image: "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61Ey82kqGdL._AC_SL1500_.jpg",
   },
   {
     id: "bp-002",
@@ -196,7 +196,7 @@ export const featuredProducts: Product[] = [
     priceMax: 380,
     tags: ["Carbon Fiber", "Universal"],
     popularity: "trending",
-    image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71GXqJxmyjL._AC_SL1500_.jpg",
   },
   {
     id: "ff-001",
@@ -209,7 +209,7 @@ export const featuredProducts: Product[] = [
     priceMax: 400,
     tags: ["Textured", "Bolt-On"],
     popularity: "classic",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71EfNMGv3fL._AC_SL1500_.jpg",
   },
   {
     id: "ss-001",
@@ -222,7 +222,7 @@ export const featuredProducts: Product[] = [
     priceMax: 200,
     tags: ["Universal", "Gloss Black"],
     popularity: "new",
-    image: "https://images.unsplash.com/photo-1580274455191-1c62238ce452?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61cTYKPiAWL._AC_SL1500_.jpg",
   },
   {
     id: "led-001",
@@ -235,7 +235,7 @@ export const featuredProducts: Product[] = [
     priceMax: 450,
     tags: ["Sequential", "Smoked"],
     popularity: "hot",
-    image: "https://images.pexels.com/photos/19292944/pexels-photo-19292944.jpeg?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71M0Vy-0AQL._AC_SL1500_.jpg",
   },
   {
     id: "led-002",
@@ -248,7 +248,7 @@ export const featuredProducts: Product[] = [
     priceMax: 80,
     tags: ["Switchback", "IP67"],
     popularity: "trending",
-    image: "https://images.pexels.com/photos/15785276/pexels-photo-15785276.jpeg?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71hZ3z0MkBL._AC_SL1500_.jpg",
   },
   {
     id: "ct-001",
@@ -261,7 +261,7 @@ export const featuredProducts: Product[] = [
     priceMax: 120,
     tags: ["3M Vinyl", "Pre-Cut"],
     popularity: "new",
-    image: "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71OtBqJHnQL._AC_SL1500_.jpg",
   },
   {
     id: "wv-001",
@@ -274,7 +274,7 @@ export const featuredProducts: Product[] = [
     priceMax: 90,
     tags: ["In-Channel", "4-Piece"],
     popularity: "classic",
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61dWMNEk1RL._AC_SL1500_.jpg",
   },
   {
     id: "mf-001",
@@ -287,7 +287,7 @@ export const featuredProducts: Product[] = [
     priceMax: 100,
     tags: ["Urethane", "No-Drill"],
     popularity: "classic",
-    image: "https://images.unsplash.com/photo-1611016186353-652a28d5d18e?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71xPfFKiURL._AC_SL1500_.jpg",
   },
   {
     id: "cc-001",
@@ -300,7 +300,7 @@ export const featuredProducts: Product[] = [
     priceMax: 180,
     tags: ["Waterproof", "UV Shield"],
     popularity: "classic",
-    image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71b7t6HpMBL._AC_SL1500_.jpg",
   },
   {
     id: "rr-001",
@@ -313,7 +313,7 @@ export const featuredProducts: Product[] = [
     priceMax: 200,
     tags: ["Aluminum", "Anti-Theft"],
     popularity: "trending",
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&h=400&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71pz1GkXYBL._AC_SL1500_.jpg",
   },
 ];
 
