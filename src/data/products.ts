@@ -118,7 +118,7 @@ export const featuredProducts: Product[] = [
     priceMax: 520,
     tags: ["Carbon Fiber", "Universal"],
     popularity: "hot",
-    image: "https://m.media-amazon.com/images/I/61qJwQ2gNEL._AC_SL1200_.jpg",
+    image: "/images/products/spoiler-gt-wing.jpg",
   },
   {
     id: "sp-002",
@@ -131,7 +131,7 @@ export const featuredProducts: Product[] = [
     priceMax: 120,
     tags: ["ABS", "Sedan"],
     popularity: "trending",
-    image: "https://m.media-amazon.com/images/I/61DPuSMJURL._AC_SL1500_.jpg",
+    image: "/images/products/spoiler-lip.jpg",
   },
   {
     id: "bk-001",
@@ -144,7 +144,7 @@ export const featuredProducts: Product[] = [
     priceMax: 2500,
     tags: ["Polyurethane", "Full Kit"],
     popularity: "hot",
-    image: "https://m.media-amazon.com/images/I/71yA7-LPKXL._AC_SL1500_.jpg",
+    image: "/images/products/body-kit.jpg",
   },
   {
     id: "gr-001",
@@ -157,7 +157,7 @@ export const featuredProducts: Product[] = [
     priceMax: 280,
     tags: ["Gloss Black", "OEM Fit"],
     popularity: "trending",
-    image: "https://m.media-amazon.com/images/I/71mYhFJRJwL._AC_SL1500_.jpg",
+    image: "/images/products/grille-mesh.jpg",
   },
   {
     id: "gr-002",
@@ -170,7 +170,7 @@ export const featuredProducts: Product[] = [
     priceMax: 450,
     tags: ["Aluminum", "Chrome"],
     popularity: "classic",
-    image: "https://m.media-amazon.com/images/I/81NlxFH-9hL._AC_SL1500_.jpg",
+    image: "/images/products/grille-chrome.jpg",
   },
   {
     id: "bp-001",
@@ -183,7 +183,7 @@ export const featuredProducts: Product[] = [
     priceMax: 850,
     tags: ["Paintable", "Sport"],
     popularity: "hot",
-    image: "https://m.media-amazon.com/images/I/61Ey82kqGdL._AC_SL1500_.jpg",
+    image: "/images/products/bumper-front.jpg",
   },
   {
     id: "bp-002",
@@ -196,7 +196,7 @@ export const featuredProducts: Product[] = [
     priceMax: 380,
     tags: ["Carbon Fiber", "Universal"],
     popularity: "trending",
-    image: "https://m.media-amazon.com/images/I/71GXqJxmyjL._AC_SL1500_.jpg",
+    image: "/images/products/bumper-lip.jpg",
   },
   {
     id: "ff-001",
@@ -209,7 +209,7 @@ export const featuredProducts: Product[] = [
     priceMax: 400,
     tags: ["Textured", "Bolt-On"],
     popularity: "classic",
-    image: "https://m.media-amazon.com/images/I/71EfNMGv3fL._AC_SL1500_.jpg",
+    image: "/images/products/fender-flares.jpg",
   },
   {
     id: "ss-001",
@@ -222,7 +222,7 @@ export const featuredProducts: Product[] = [
     priceMax: 200,
     tags: ["Universal", "Gloss Black"],
     popularity: "new",
-    image: "https://m.media-amazon.com/images/I/61cTYKPiAWL._AC_SL1500_.jpg",
+    image: "/images/products/side-skirts.jpg",
   },
   {
     id: "led-001",
@@ -235,7 +235,7 @@ export const featuredProducts: Product[] = [
     priceMax: 450,
     tags: ["Sequential", "Smoked"],
     popularity: "hot",
-    image: "https://m.media-amazon.com/images/I/71M0Vy-0AQL._AC_SL1500_.jpg",
+    image: "/images/products/led-taillights.jpg",
   },
   {
     id: "led-002",
@@ -248,7 +248,7 @@ export const featuredProducts: Product[] = [
     priceMax: 80,
     tags: ["Switchback", "IP67"],
     popularity: "trending",
-    image: "https://m.media-amazon.com/images/I/71hZ3z0MkBL._AC_SL1500_.jpg",
+    image: "/images/products/led-drl.jpg",
   },
   {
     id: "ct-001",
@@ -261,7 +261,7 @@ export const featuredProducts: Product[] = [
     priceMax: 120,
     tags: ["3M Vinyl", "Pre-Cut"],
     popularity: "new",
-    image: "https://m.media-amazon.com/images/I/71OtBqJHnQL._AC_SL1500_.jpg",
+    image: "/images/products/chrome-delete.jpg",
   },
   {
     id: "wv-001",
@@ -274,7 +274,7 @@ export const featuredProducts: Product[] = [
     priceMax: 90,
     tags: ["In-Channel", "4-Piece"],
     popularity: "classic",
-    image: "https://m.media-amazon.com/images/I/61dWMNEk1RL._AC_SL1500_.jpg",
+    image: "/images/products/window-visor.jpg",
   },
   {
     id: "mf-001",
@@ -287,7 +287,7 @@ export const featuredProducts: Product[] = [
     priceMax: 100,
     tags: ["Urethane", "No-Drill"],
     popularity: "classic",
-    image: "https://m.media-amazon.com/images/I/71xPfFKiURL._AC_SL1500_.jpg",
+    image: "/images/products/mud-flaps.jpg",
   },
   {
     id: "cc-001",
@@ -300,7 +300,7 @@ export const featuredProducts: Product[] = [
     priceMax: 180,
     tags: ["Waterproof", "UV Shield"],
     popularity: "classic",
-    image: "https://m.media-amazon.com/images/I/71b7t6HpMBL._AC_SL1500_.jpg",
+    image: "/images/products/car-cover.jpg",
   },
   {
     id: "rr-001",
@@ -313,7 +313,7 @@ export const featuredProducts: Product[] = [
     priceMax: 200,
     tags: ["Aluminum", "Anti-Theft"],
     popularity: "trending",
-    image: "https://m.media-amazon.com/images/I/71pz1GkXYBL._AC_SL1500_.jpg",
+    image: "/images/products/roof-rack.jpg",
   },
 ];
 
