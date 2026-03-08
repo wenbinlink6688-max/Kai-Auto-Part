@@ -1,8 +1,10 @@
 "use client";
 
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
+  const [state, handleSubmit] = useForm("xojkvlde");
   return (
     <section id="contact" className="py-28 bg-[#0e0e0e] diagonal-stripe relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
@@ -66,56 +68,85 @@ export default function Contact() {
             <h3 className="font-['Bebas_Neue'] text-2xl tracking-wider text-[#e8e8e8] mb-8">
               REQUEST A QUOTE
             </h3>
-            <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
+            {state.succeeded ? (
+              <div className="flex flex-col items-center justify-center py-16 text-center">
+                <div className="w-16 h-16 bg-[#c8a04a]/10 border border-[#c8a04a]/30 flex items-center justify-center mb-6">
+                  <Mail size={24} className="text-[#c8a04a]" />
+                </div>
+                <p className="text-[#e8e8e8] text-lg font-medium mb-2">
+                  Inquiry Sent!
+                </p>
+                <p className="text-[#888] text-sm">
+                  We&apos;ll get back to you as soon as possible.
+                </p>
+              </div>
+            ) : (
+            <form className="space-y-5" onSubmit={handleSubmit}>
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
-                  <label className="block text-[10px] tracking-[0.3em] uppercase text-[#555] mb-2">
+                  <label htmlFor="name" className="block text-[10px] tracking-[0.3em] uppercase text-[#555] mb-2">
                     Name
                   </label>
                   <input
+                    id="name"
                     type="text"
+                    name="name"
+                    required
                     className="w-full bg-[#0e0e0e] border border-[#333] px-4 py-3 text-sm text-[#e8e8e8] focus:border-[#c8a04a] focus:outline-none transition-colors placeholder:text-[#444]"
                     placeholder="Your name"
                   />
+                  <ValidationError prefix="Name" field="name" errors={state.errors} />
                 </div>
                 <div>
-                  <label className="block text-[10px] tracking-[0.3em] uppercase text-[#555] mb-2">
+                  <label htmlFor="email" className="block text-[10px] tracking-[0.3em] uppercase text-[#555] mb-2">
                     Email
                   </label>
                   <input
+                    id="email"
                     type="email"
+                    name="email"
+                    required
                     className="w-full bg-[#0e0e0e] border border-[#333] px-4 py-3 text-sm text-[#e8e8e8] focus:border-[#c8a04a] focus:outline-none transition-colors placeholder:text-[#444]"
                     placeholder="your@email.com"
                   />
+                  <ValidationError prefix="Email" field="email" errors={state.errors} />
                 </div>
               </div>
               <div>
-                <label className="block text-[10px] tracking-[0.3em] uppercase text-[#555] mb-2">
+                <label htmlFor="vehicle" className="block text-[10px] tracking-[0.3em] uppercase text-[#555] mb-2">
                   Vehicle
                 </label>
                 <input
+                  id="vehicle"
                   type="text"
+                  name="vehicle"
                   className="w-full bg-[#0e0e0e] border border-[#333] px-4 py-3 text-sm text-[#e8e8e8] focus:border-[#c8a04a] focus:outline-none transition-colors placeholder:text-[#444]"
                   placeholder="Year, Make, Model (e.g. 2024 BMW M4)"
                 />
               </div>
               <div>
-                <label className="block text-[10px] tracking-[0.3em] uppercase text-[#555] mb-2">
+                <label htmlFor="message" className="block text-[10px] tracking-[0.3em] uppercase text-[#555] mb-2">
                   Message
                 </label>
                 <textarea
+                  id="message"
+                  name="message"
                   rows={4}
+                  required
                   className="w-full bg-[#0e0e0e] border border-[#333] px-4 py-3 text-sm text-[#e8e8e8] focus:border-[#c8a04a] focus:outline-none transition-colors placeholder:text-[#444] resize-none"
                   placeholder="Tell us what parts you're looking for..."
                 />
+                <ValidationError prefix="Message" field="message" errors={state.errors} />
               </div>
               <button
                 type="submit"
-                className="w-full py-4 bg-[#c8a04a] text-black font-semibold tracking-wider uppercase text-sm hover:bg-[#d4b565] transition-all duration-300 hover:shadow-[0_0_30px_rgba(200,160,74,0.3)]"
+                disabled={state.submitting}
+                className="w-full py-4 bg-[#c8a04a] text-black font-semibold tracking-wider uppercase text-sm hover:bg-[#d4b565] transition-all duration-300 hover:shadow-[0_0_30px_rgba(200,160,74,0.3)] disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Send Inquiry
+                {state.submitting ? "Sending..." : "Send Inquiry"}
               </button>
             </form>
+            )}
           </div>
         </div>
       </div>
