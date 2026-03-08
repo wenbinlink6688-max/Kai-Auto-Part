@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("xojkvlde");
+  const [state, handleSubmit] = useForm("mlgpdlny");
   return (
     <section id="contact" className="py-28 bg-[#0e0e0e] diagonal-stripe relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
