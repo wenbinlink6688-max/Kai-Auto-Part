@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("xojkvlde");
+  const [state, handleSubmit] = useForm("mlgpdlny");
   return (
     <section id="contact" className="py-28 bg-[#0e0e0e] diagonal-stripe relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
@@ -31,8 +31,8 @@ export default function Contact() {
 
             <div className="space-y-6">
               {[
-                { icon: Mail, label: "Email", value: "sales@wenbininc.com" },
-                { icon: Phone, label: "Phone", value: "(702) 555-0188" },
+                { icon: Mail, label: "Email", value: "wenbinlink6688@outlook.com" },
+                { icon: Phone, label: "Phone", value: "(510) 820-3477" },
                 {
                   icon: MapPin,
                   label: "Location",
