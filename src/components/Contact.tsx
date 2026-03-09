@@ -31,8 +31,8 @@ export default function Contact() {
 
             <div className="space-y-6">
               {[
-                { icon: Mail, label: "Email", value: "sales@wenbininc.com" },
-                { icon: Phone, label: "Phone", value: "(702) 555-0188" },
+                { icon: Mail, label: "Email", value: "wenbinlink6688@outlook.com" },
+                { icon: Phone, label: "Phone", value: "(510) 820-3477" },
                 {
                   icon: MapPin,
                   label: "Location",
