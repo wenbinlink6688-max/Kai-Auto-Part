@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Wenbin Inc | Premium Auto Exterior Accessories",
+  title: "KAI AUTO PART | Premium Auto Exterior Accessories",
   description:
     "Elevate your vehicle with premium exterior accessories. Spoilers, body kits, grilles, bumpers, and more — quality parts for every ride.",
 };
