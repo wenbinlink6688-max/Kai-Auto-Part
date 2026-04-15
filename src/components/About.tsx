@@ -48,7 +48,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-[#888] font-light leading-relaxed">
               <p>
-                Wenbin Inc is a premier supplier of automotive exterior
+                KAI AUTO PART is a premier supplier of automotive exterior
                 accessories, serving enthusiasts, body shops, and dealerships
                 across the United States. With over a decade of experience, we
                 understand what makes a vehicle stand out.
@@ -61,7 +61,7 @@ export default function About() {
               </p>
               <p>
                 Whether you&apos;re building a show car or upgrading your daily
-                driver, Wenbin Inc delivers the parts you need with the service
+                driver, KAI AUTO PART delivers the parts you need with the service
                 you deserve.
               </p>
             </div>

@@ -33,14 +33,14 @@ export default function Header() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
             <div className="w-10 h-10 bg-gradient-to-br from-[#c8a04a] to-[#8a6e30] rounded-sm flex items-center justify-center font-['Bebas_Neue'] text-xl text-black tracking-wider">
-              W
+              K
             </div>
             <div>
               <span className="font-['Bebas_Neue'] text-2xl tracking-[0.15em] text-[#e8e8e8] group-hover:text-[#c8a04a] transition-colors">
-                WENBIN
+                KAI
               </span>
               <span className="font-['Bebas_Neue'] text-2xl tracking-[0.15em] text-[#888] ml-2">
-                INC
+                AUTO PART
               </span>
             </div>
           </a>

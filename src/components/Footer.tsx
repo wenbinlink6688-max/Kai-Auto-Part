@@ -7,14 +7,14 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-[#c8a04a] to-[#8a6e30] rounded-sm flex items-center justify-center font-['Bebas_Neue'] text-xl text-black tracking-wider">
-                W
+                K
               </div>
               <div>
                 <span className="font-['Bebas_Neue'] text-2xl tracking-[0.15em] text-[#e8e8e8]">
-                  WENBIN
+                  KAI
                 </span>
                 <span className="font-['Bebas_Neue'] text-2xl tracking-[0.15em] text-[#888] ml-2">
-                  INC
+                  AUTO PART
                 </span>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Footer() {
         <div className="section-divider mb-8" />
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[#555]">
-            © {new Date().getFullYear()} Wenbin Inc. All rights reserved.
+            © {new Date().getFullYear()} KAI AUTO PART. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <span className="text-xs text-[#555] hover:text-[#888] cursor-pointer transition-colors">
