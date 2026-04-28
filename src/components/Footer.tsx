@@ -70,7 +70,7 @@ export default function Footer() {
         <div className="section-divider mb-8" />
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[#555]">
-            © {new Date().getFullYear()} KAI AUTO PART. All rights reserved.
+            © {new Date().getFullYear()} KAI AUTO PART by Youngway Axis LLc. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <span className="text-xs text-[#555] hover:text-[#888] cursor-pointer transition-colors">
